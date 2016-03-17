@@ -1,0 +1,83 @@
+/* Stylesheet for City AutoComplete */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+}
+body { 
+	font-family: 'Open Sans', sans-serif;
+	background-color: #5190ED; 
+}
+
+.citySearch {text-align: center; }
+
+#search {
+	margin: 0 auto;
+	width: 315px;
+	padding-top: 10px;
+	position: relative;
+}
+
+input#city {
+	line-height: 39px;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding-left: 1%;
+	border: 1px solid #ccc;
+	display: block;
+	width: 100%;
+	margin-right: 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {  
+   color: #ccc;  
+}
+
+#suggestion-box {
+	clear: both;
+	max-height: 250px;
+	overflow-y: scroll;
+	width: 315px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 50px;
+}
+
+#suggestion-box ul li{
+	padding: 8px;
+}
+
+#suggestion-box ul li:hover{
+	color: white;
+	background-color: #ff6600;
+}
+
+#display {
+	clear: both;
+	padding: 5px;
+}	
+
+h3, h5, h6{
+	font-weight: lighter;
+	color: white;
+}
+
+h3{
+	font-size: 72px;
+    text-transform: uppercase;
+}
+
+h5{
+	font-size: 62px;
+}
+
+h6{
+	font-size: 26px;
+    text-transform: capitalize;
+}
