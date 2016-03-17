@@ -1,2 +1,5 @@
 # OpenWeatherMAP-City
-Merge of 2 SQL tables to generate a weather lookup by city or zip code
+A weather lookup by city or zip code using OpenWeatherMap data
+
+
+Be aware: You will need to insert your own OpenWeatherMap API key into city.js
